@@ -1,0 +1,67 @@
+/* Page base */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #f1f8e9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main card */
+.center {
+    width: 92%;
+    max-width: 380px;
+    background: #ffffff;
+    padding: 32px 20px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Title */
+h1 {
+    font-size: 28px;          /* BIG heading */
+    color: #1b5e20;
+    margin-bottom: 25px;
+}
+
+/* Input field */
+input {
+    width: 100%;
+    padding: 18px;
+    font-size: 22px;          /* BIG text */
+    border-radius: 12px;
+    border: 2px solid #a5d6a7;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-color: #2e7d32;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 18px;
+    font-size: 22px;          /* BIG button text */
+    background: #2e7d32;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Button hover (desktop) */
+button:hover {
+    background: #1b5e20;
+}
+
+/* Small text / hint */
+.hint {
+    margin-top: 18px;
+    font-size: 18px;          /* Easy to read */
+    color: #33691e;
+}
